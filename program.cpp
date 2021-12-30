@@ -12,6 +12,11 @@ int main() {
     result.append(std::to_string(someHexValues[i]));
   }
 
-  printf("Hello World. Result is: %s", result.c_str());
+  printf("Hello World. Result is: %s\n", result.c_str());
+
+  // time for pointers
+  int result2 = 42;
+  printf("result2 is: %d\npointer is: %p\npointer-with-indirection is: %d\n", result2, &result2, *&result2);
+
   return 0;
 }
