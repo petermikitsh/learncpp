@@ -1,0 +1,1 @@
+g++ -o output program.cpp
